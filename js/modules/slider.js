@@ -89,9 +89,13 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
      next.addEventListener("click", () => {
          if (offset == deleteNotDigits(width) * (slides.length - 1)) { //убираем все буквы из width
                                                                                   // Если offset равняется ширине 4ого слайда, то на первый
-             offset = 0;
-         } else {
+             
+                 console.log(offset, 1)                                                                 
+                 offset = 0;
+                 console.log(offset, 1)   
+         } else {   
              offset += deleteNotDigits(width);
+             console.log(offset, 2)
          }
  
          slidesField.style.transform = `translateX(-${offset}px)`; //смещаем на один слайд вперед
