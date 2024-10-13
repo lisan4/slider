@@ -180,7 +180,7 @@ function slider({container, slide, nextArrow, prevArrow, totalCounter, currentCo
 
     // if (slides.length < 10) { // условие на общее количество слайдов чтобы прописать в начале
     //     total.textContent = `0${slides.length}`;
-    // } else {
+    // } else {hgfhgfhgfhgf
     //     total.textContent = slides.length;
     // }
 
