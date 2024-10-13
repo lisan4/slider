@@ -1,4 +1,8 @@
+console.log(3333)
+
 import slider from './modules/slider';
+
+console.log(3333)
 
 window.addEventListener("DOMContentLoaded", () => {
     
